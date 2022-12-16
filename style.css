@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins', sans-serif; 
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+      
+}
+body {
+    position: relative;
+    background: blanchedalmond;
+}
+.container-fluid {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+}
+.container {
+    margin-top: 5%;
+    display: block;
+    justify-content: space-between;
+}
+.container .search {
+    display: block;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+.container .search h1 {
+    display: block;
+    color: green;
+    padding-bottom: 10px;
+    text-align: justify;
+    padding-left: 10px;
+    margin-left: 2%;
+}
+.container .search input {
+    width: 100%;
+    padding: 10px 30px;
+    background: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 2%;
+}
+.container .search input::placeholder {
+    color: green;
+    font-weight: 50;
+}
+.container .product{
+    flex-basis: 31%;
+    color: blanchedalmond;
+    background: green;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.9s;
+}
+.container .product h3{
+    text-align: left;
+    font-weight: 10px;
+    margin: 10px 0;
+    color: blanchedalmond;
+}
+.container .product h5{
+    text-align: left;
+    font-weight: 0;
+    margin: 10px 0;
+    color: blanchedalmond;
+}
+.container .product:hover{
+    box-shadow: 0 0 10px 0px yellow;
+}
+.container .product img{
+    width: 25%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.container .navigation{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    justify-items: left;
+    color: blanchedalmond;
+    font-size: 18px;
+    padding: 17px 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+.dev{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+}
+.devgallery-col{
+    flex-basis: 2%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.devgallery-col img{
+    width: 100%;
+    border-radius: 590px;
+}
+
+.row{
+    margin-top: 5%;
+    display: block;
+    justify-content: space-between;
+}
+.dev-col{
+    flex-basis: 31%;
+    color: blanchedalmond;
+    background: green;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.9s;
+}
+.dev h4{
+    color: blanchedalmond;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.dev p{
+    color: blanchedalmond;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.dev h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.dev ul{
+    color: blanchedalmond;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.dev-col:hover{
+    box-shadow: 0 0 50px 0px yellow;
+}
+.searching{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-color: blanchedalmond;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-button{
+    width: 100%;
+    max-width: 700px;
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-button input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: black;   
+}
+.search-button button{
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #58629b;
+    cursor: pointer;
+}
