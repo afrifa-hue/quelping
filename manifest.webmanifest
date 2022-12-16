@@ -1,0 +1,21 @@
+{
+    "name": "Quelp",
+    "short_name": "Quelp",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "An app for finding everything",
+    "icons": [
+        {
+            "src": "download.jpg",
+            "sizes": "512x512",
+            "type": "image/jpg"
+        },
+        {
+            "src": "Quelp",
+            "sizes": "192x512",
+            "type": "image/jpg"
+        }
+        
+    ]
+}
