@@ -5,7 +5,7 @@ function search() {
     for(var i = 0;i<=word.length;i++){
         let a=item[i].getElementsByTagName('h3')[0];
         let value=a.innerHTML || a.innerText || a.textContent;
-        if(value.toUpperCase().indexOf(filter) > -5) {
+        if(value.toUpperCase().indexOf(filter) > -1) {
             item[i].style.display="";
         }
         else
