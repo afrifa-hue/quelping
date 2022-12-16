@@ -1,6 +1,6 @@
 function search() {
     let filter = document.getElementById('find').value.toUpperCase();
-    let item = document.querySelectorAll('.product');
+    let item = document.querySelectorAll('.product-list');
     let word  = document.getElementsByTagName('h3');
     for(var i = 0;i<=word.length;i++){
         let a=item[i].getElementsByTagName('h3')[0];
