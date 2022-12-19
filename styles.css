@@ -14,9 +14,9 @@ body {
   margin-top: 5%;
   background-color: #ffebcd;
 }
-h2 b{
+h2 {
   margin-bottom: 2rem;
-  align-items: center;
+  place-items: center;
 }
 form {
   display: flex;
