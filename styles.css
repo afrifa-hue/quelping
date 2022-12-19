@@ -13,6 +13,7 @@ body {
   place-items: center;
   margin-top: 5%;
   background-color: #ffebcd;
+  border radius: 10px;
 }
 h1 {
   margin-bottom: 2rem;
