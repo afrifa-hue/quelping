@@ -15,8 +15,8 @@ body {
   background-color: #ffebcd;
 }
 h2 {
-  margin-bottom: 2rem;
-  place-items: center;
+  margin-bottom: 2%;
+  text-align: center;
 }
 form {
   display: flex;
