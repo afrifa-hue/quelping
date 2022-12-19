@@ -45,7 +45,7 @@ button {
 }
 
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, [body] {
+  .col-25, .col-75, [wrapper] {
     width: 100%;
     margin-top: 0;
   }
